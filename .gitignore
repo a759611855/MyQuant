@@ -2,6 +2,16 @@
 *.csv
 *.CSV
 
+# Local runtime data
+backend/data/*
+!backend/data/.gitkeep
+*.db
+
+# Node
+node_modules/
+frontend/dist/
+.DS_Store
+
 # Python
 __pycache__/
 *.py[cod]
@@ -11,6 +21,7 @@ __pycache__/
 .venv/
 venv/
 env/
+backend/.venv/
 .env
 .env.*
 !.env.example
